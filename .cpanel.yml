@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export APPPATH=/home2/techcro1/repositories/techcrossbreed-website
+    - export DEPLOYPATH=/home2/techcro1/public_html
+
+    - /opt/alt/php84/usr/bin/php $APPPATH/artisan optimize:clear
+
+    - /bin/cp -R $APPPATH/public/* $DEPLOYPATH/
+
+    - /bin/cp $APPPATH/public/.htaccess $DEPLOYPATH/.htaccess
+
+    - /bin/sed -i "s|require __DIR__.'/../vendor/autoload.php';|require '$APPPATH/vendor/autoload.php';|" $DEPLOYPATH/index.php
+
+    - /bin/sed -i "s|require_once __DIR__.'/../bootstrap/app.php';|require_once '$APPPATH/bootstrap/app.php';|" $DEPLOYPATH/index.php
