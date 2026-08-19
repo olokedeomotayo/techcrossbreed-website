@@ -49,3 +49,37 @@ Route::view('/contact', 'contact')->name('contact');
 
 
 Route::view('/blog', 'blog')->name('blog');
+
+
+Route::get('/sitemap.xml', function () {
+    $urls = [
+        url('/'),
+        url('/about'),
+        url('/services'),
+        url('/services/website-development'),
+        url('/services/software-development'),
+        url('/services/ui-ux-design'),
+        url('/services/seo-digital-growth'),
+        url('/services/data-analytics'),
+        url('/services/digital-transformation'),
+        url('/projects'),
+        url('/projects/apmdc-corporate-website'),
+        url('/projects/apmdc-hrms'),
+        url('/projects/apmdc-procurement-system'),
+        url('/contact'),
+    ];
+
+    $xml = '<?xml version="1.0" encoding="UTF-8"?>';
+    $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+
+    foreach ($urls as $url) {
+        $xml .= '<url>';
+        $xml .= '<loc>' . htmlspecialchars($url, ENT_XML1, 'UTF-8') . '</loc>';
+        $xml .= '</url>';
+    }
+
+    $xml .= '</urlset>';
+
+    return response($xml, 200)
+        ->header('Content-Type', 'application/xml');
+});
