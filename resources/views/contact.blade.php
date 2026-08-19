@@ -170,10 +170,10 @@
                                 </p>
 
                                 <a
-                                    href="mailto:hello@techcrossbreed.com.ng"
+                                    href="mailto:info@techcrossbreed.com.ng"
                                     class="mt-1 block font-semibold text-brand-dark transition hover:text-brand-purple"
                                 >
-                                    hello@techcrossbreed.com.ng
+                                    info@techcrossbreed.com.ng
                                 </a>
 
                             </div>
@@ -297,13 +297,19 @@
 
                     </div>
 
-
+                    
                     {{-- Form --}}
-                    <form
-                        action="#"
-                        method="POST"
-                        class="space-y-6"
-                    >
+
+                    @if (session('success'))
+                        <div class="mb-6 rounded-2xl border border-green-200 bg-green-50 px-5 py-4 text-sm font-medium text-green-700">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                   <form
+                    action="{{ route('contact.submit') }}"
+                    method="POST"
+                    class="space-y-6"
+                >
 
                         @csrf
 

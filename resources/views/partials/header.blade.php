@@ -65,12 +65,89 @@
                     About
                 </a>
 
+                <div class="group relative">
+
+    <button
+        type="button"
+        class="flex items-center gap-1 text-[15px] font-medium text-brand-dark transition hover:text-brand-purple"
+        aria-haspopup="true"
+    >
+        Services
+
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="h-4 w-4 transition-transform duration-200 group-hover:rotate-180"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m6 9 6 6 6-6"
+            />
+        </svg>
+    </button>
+
+
+    {{-- Services Dropdown --}}
+            <div
+                class="invisible absolute left-1/2 top-full z-50 mt-3 w-64 -translate-x-1/2 translate-y-2 rounded-2xl border border-gray-100 bg-white p-2 opacity-0 shadow-xl shadow-black/5 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100"
+            >
+
                 <a
                     href="{{ url('/services') }}"
-                    class="text-[15px] font-medium text-brand-dark transition hover:text-brand-purple"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
                 >
-                    Services
+                    All Services
                 </a>
+
+                <a
+                    href="{{ url('/services/website-development') }}"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
+                >
+                    Website Development
+                </a>
+
+                <a
+                    href="{{ url('/services/software-development') }}"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
+                >
+                    Software Development
+                </a>
+
+                <a
+                    href="{{ url('/services/ui-ux-design') }}"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
+                >
+                    UI/UX Design
+                </a>
+
+                <a
+                    href="{{ url('/services/seo-digital-growth') }}"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
+                >
+                    SEO & Digital Growth
+                </a>
+
+                <a
+                    href="{{ url('/services/data-analytics') }}"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
+                >
+                    Data Analytics
+                </a>
+
+                <a
+                    href="{{ url('/services/digital-transformation') }}"
+                    class="block rounded-xl px-4 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-brand-light hover:text-brand-purple"
+                >
+                    Digital Transformation
+                </a>
+
+            </div>
+
+        </div>
 
                 <a
                     href="{{ url('/projects') }}"

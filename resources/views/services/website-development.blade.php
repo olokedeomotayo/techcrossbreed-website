@@ -405,6 +405,338 @@
 
     </section>
 
+    {{-- ================================================================
+     WEBSITE DEVELOPMENT PRICING
+================================================================= --}}
+<section
+    id="website-pricing"
+    class="relative overflow-hidden bg-white"
+    aria-labelledby="website-pricing-heading"
+>
+
+    <div class="mx-auto max-w-[1200px] px-6 py-14 sm:px-8 lg:px-10 lg:py-18">
+
+        {{-- Section Heading --}}
+        <div class="mx-auto max-w-3xl text-center">
+
+            <div class="mb-4 flex items-center justify-center gap-4">
+
+                <span class="h-[4px] w-10 rounded-full bg-brand-red"></span>
+
+                <span class="text-[12px] font-bold uppercase tracking-[0.25em] text-brand-purple">
+                    Website Packages
+                </span>
+
+                <span class="h-[4px] w-10 rounded-full bg-brand-red"></span>
+
+            </div>
+
+            <h2
+                id="website-pricing-heading"
+                class="text-3xl font-extrabold tracking-tight text-brand-dark sm:text-4xl"
+            >
+                Website packages built for your business.
+            </h2>
+
+            <p class="mx-auto mt-3 max-w-2xl text-sm leading-6 text-brand-gray sm:text-base">
+                Choose a package that fits your current needs, or talk to us
+                about a custom solution.
+            </p>
+
+            {{-- Included --}}
+            <div class="mt-4 flex justify-center">
+
+                <span class="inline-flex items-center gap-2 rounded-full bg-brand-purple-light px-4 py-2 text-xs font-bold text-brand-purple">
+
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        class="h-4 w-4"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M5 13l4 4L19 7"
+                        />
+                    </svg>
+
+                    Domain & Hosting Included
+
+                </span>
+
+            </div>
+
+        </div>
+
+
+        {{-- Pricing Cards --}}
+        <div class="mt-9 grid gap-5 md:grid-cols-3">
+
+
+            {{-- =========================================================
+                 STARTER
+            ========================================================== --}}
+            <article
+                class="flex flex-col rounded-[24px] border border-gray-200 bg-brand-light p-6"
+            >
+
+                <div class="flex-1">
+
+                    <span class="text-[11px] font-black uppercase tracking-[0.18em] text-brand-purple">
+                        Starter
+                    </span>
+
+                    <h3 class="mt-2 text-xl font-bold text-brand-dark">
+                        Essential Website
+                    </h3>
+
+                    <p class="mt-2 text-sm leading-6 text-brand-gray">
+                        A professional online presence for businesses
+                        getting started or strengthening their digital presence.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <span class="text-[11px] font-semibold text-brand-gray">
+                            Starting from
+                        </span>
+
+                        <div class="mt-0.5 text-3xl font-extrabold text-brand-dark">
+                            ₦250,000
+                        </div>
+
+                    </div>
+
+                    <ul class="mt-4 space-y-2 text-sm text-brand-gray">
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-purple">✓</span>
+                            Up to 5 pages
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-purple">✓</span>
+                            Responsive design
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-purple">✓</span>
+                            Contact form
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-purple">✓</span>
+                            Basic SEO setup
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-purple">✓</span>
+                            Domain & hosting
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    onclick="orderViaWhatsApp('Starter Website', '₦250,000'); return false;"
+                    class="mt-6 inline-flex items-center justify-center rounded-full border border-brand-purple px-5 py-3 text-sm font-bold text-brand-purple transition hover:bg-brand-purple hover:text-white"
+                >
+                    Choose Starter
+                </a>
+
+            </article>
+
+
+            {{-- =========================================================
+                 BUSINESS
+            ========================================================== --}}
+            <article
+                class="relative flex flex-col rounded-[24px] border-2 border-brand-purple bg-[#17121b] p-6 shadow-xl shadow-brand-purple/10"
+            >
+
+                {{-- Recommended --}}
+                <span
+                    class="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-brand-purple px-4 py-1 text-[10px] font-black uppercase tracking-[0.15em] text-white"
+                >
+                    Recommended
+                </span>
+
+
+                <div class="flex-1">
+
+                    <span class="text-[11px] font-black uppercase tracking-[0.18em] text-[#c98bd0]">
+                        Business
+                    </span>
+
+                    <h3 class="mt-2 text-xl font-bold text-white">
+                        Growth Website
+                    </h3>
+
+                    <p class="mt-2 text-sm leading-6 text-white/50">
+                        A stronger digital presence for businesses ready
+                        to attract, engage and convert more customers.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <span class="text-[11px] font-semibold text-white/40">
+                            Starting from
+                        </span>
+
+                        <div class="mt-0.5 text-3xl font-extrabold text-white">
+                            ₦450,000
+                        </div>
+
+                    </div>
+
+                    <ul class="mt-4 space-y-2 text-sm text-white/60">
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Up to 10 pages
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Custom UI/UX design
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Advanced SEO structure
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Lead & contact forms
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Domain & hosting
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    onclick="orderViaWhatsApp('Business Website', '₦450,000'); return false;"
+                    class="mt-6 inline-flex items-center justify-center rounded-full bg-brand-purple px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-brand-purple-dark"
+                >
+                    Choose Business
+                </a>
+
+            </article>
+
+
+            {{-- =========================================================
+                 CUSTOM
+            ========================================================== --}}
+            <article
+                class="flex flex-col rounded-[24px] border border-gray-200 bg-brand-light p-6"
+            >
+
+                <div class="flex-1">
+
+                    <span class="text-[11px] font-black uppercase tracking-[0.18em] text-brand-red">
+                        Custom
+                    </span>
+
+                    <h3 class="mt-2 text-xl font-bold text-brand-dark">
+                        Tailored Website
+                    </h3>
+
+                    <p class="mt-2 text-sm leading-6 text-brand-gray">
+                        For organizations that need advanced functionality,
+                        integrations or a completely tailored digital platform.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <span class="text-[11px] font-semibold text-brand-gray">
+                            Pricing
+                        </span>
+
+                        <div class="mt-0.5 text-3xl font-extrabold text-brand-dark">
+                            Let's Talk
+                        </div>
+
+                    </div>
+
+                    <ul class="mt-4 space-y-2 text-sm text-brand-gray">
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Custom project scope
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Advanced functionality
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Custom integrations
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Tailored UI/UX
+                        </li>
+
+                        <li class="flex gap-2">
+                            <span class="font-bold text-brand-red">✓</span>
+                            Domain & hosting
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    onclick="orderViaWhatsApp('Custom Website'); return false;"
+                    class="mt-6 inline-flex items-center justify-center rounded-full border border-brand-red px-5 py-3 text-sm font-bold text-brand-red transition hover:bg-brand-red hover:text-white"
+                >
+                    Discuss Your Project
+                </a>
+
+            </article>
+
+        </div>
+
+
+               {{-- Pricing Note --}}
+        <p class="mt-6 text-center text-xs leading-5 text-brand-gray">
+            All packages include domain registration and hosting.
+            Final scope and pricing for Custom projects will be determined
+            based on your specific requirements.
+        </p>
+
+    </div>
+
+
+    {{-- ================================================================
+         SECTION DIVIDER
+    ================================================================= --}}
+    <div
+        class="mx-auto h-px max-w-[1100px] bg-gradient-to-r from-transparent via-brand-purple/25 to-transparent"
+        aria-hidden="true"
+    ></div>
+
+</section>
+
 
     {{-- ================================================================
          FEATURES
@@ -1060,7 +1392,8 @@
             <div class="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
 
                 <a
-                    href="{{ url('/contact') }}"
+                    href="#"
+onclick="orderViaWhatsApp('Website Development'); return false;"
                     class="group inline-flex items-center justify-center gap-3 rounded-full bg-brand-purple px-7 py-4 text-sm font-bold text-white shadow-xl shadow-brand-purple/20 transition hover:-translate-y-1 hover:bg-brand-purple-dark"
                 >
                     Start a Project
