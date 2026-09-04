@@ -78,7 +78,7 @@
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.instagram.com/tech.crossbreed/"
                         aria-label="Techcrossbreed on Facebook"
                         class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/60 transition hover:border-brand-purple hover:bg-brand-purple hover:text-white"
                     >
@@ -86,7 +86,7 @@
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.instagram.com/tech.crossbreed/"
                         aria-label="Techcrossbreed on Instagram"
                         class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/60 transition hover:border-brand-red hover:bg-brand-red hover:text-white"
                     >

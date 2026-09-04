@@ -1,17 +1,17 @@
 @extends('layouts.app')
 
-@section('title', 'APMDC Human Resources Management System | HRMS Project | Techcrossbreed')
+@section('title', 'you Human Resources Management System | HRMS Project | Techcrossbreed')
 
 @section(
     'meta_description',
-    'Explore the APMDC Human Resources Management System developed by Techcrossbreed to streamline employee management, HR workflows, daily tasks, leave processes and organizational operations.'
+    'Explore the you Human Resources Management System developed by Techcrossbreed to streamline employee management, HR workflows, daily tasks, leave processes and organizational operations.'
 )
 
-@section('canonical', url('/projects/apmdc-hrms'))
+@section('canonical', url('/projects/you-hrms'))
 
 @section(
     'og_title',
-    'APMDC Human Resources Management System | Techcrossbreed'
+    'you Human Resources Management System | Techcrossbreed'
 )
 
 @section(
@@ -19,11 +19,11 @@
     'A custom HR management platform designed and developed by Techcrossbreed to streamline workforce administration and HR operations.'
 )
 
-@section('og_url', url('/projects/apmdc-hrms'))
+@section('og_url', url('/projects/you-hrms'))
 
 @section(
     'twitter_title',
-    'APMDC Human Resources Management System | Techcrossbreed'
+    'you Human Resources Management System | Techcrossbreed'
 )
 
 @section(
@@ -67,7 +67,7 @@
                     <li aria-hidden="true">/</li>
 
                     <li class="font-medium text-brand-dark">
-                        APMDC HRMS
+                        Breed HRMS
                     </li>
 
                 </ol>
@@ -119,7 +119,7 @@
                         id="hrms-heading"
                         class="max-w-3xl text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl"
                     >
-                        APMDC Human Resources Management System
+                        Human Resources Management System
                     </h1>
 
 
@@ -228,7 +228,7 @@
                     </p>
 
                     <p class="mt-2 font-bold text-brand-dark">
-                        APMDC
+                        you
                     </p>
 
                 </div>
@@ -324,7 +324,7 @@
 
                     <p>
                         Techcrossbreed developed a centralized Human Resources
-                        Management System for APMDC to provide a structured
+                        Management System for you to provide a structured
                         digital environment for employee and workforce-related
                         activities.
                     </p>
@@ -836,7 +836,7 @@
 
 
                 <p class="mt-5 text-base leading-8 text-brand-gray sm:text-lg">
-                    The HRMS provides APMDC with a structured digital
+                    The HRMS provides you with a structured digital
                     foundation for managing people-related activities and
                     continuing the organization's broader digital transformation.
                 </p>

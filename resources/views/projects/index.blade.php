@@ -253,13 +253,11 @@
 
                         <div class="p-7 sm:p-8">
 
-                            <p class="text-xs font-bold uppercase tracking-[0.18em] text-brand-purple">
-                                APMDC
-                            </p>
+                           
 
 
                             <h3 class="mt-3 text-2xl font-bold text-brand-dark">
-                                APMDC Corporate Website & Web Platform
+                                Corporate Website & Web Platform
                             </h3>
 
 
@@ -359,13 +357,11 @@
 
                         <div class="p-7 sm:p-8">
 
-                            <p class="text-xs font-bold uppercase tracking-[0.18em] text-brand-purple">
-                                APMDC
-                            </p>
+                           
 
 
                             <h3 class="mt-3 text-2xl font-bold text-brand-dark">
-                                APMDC Human Resources Management System
+                                AGET Human Resources Management System
                             </h3>
 
 
@@ -474,9 +470,7 @@
 
                         <div class="p-7 sm:p-8">
 
-                            <p class="text-xs font-bold uppercase tracking-[0.18em] text-brand-purple">
-                                APMDC
-                            </p>
+                          
 
 
                             <h3 class="mt-3 text-2xl font-bold text-brand-dark">

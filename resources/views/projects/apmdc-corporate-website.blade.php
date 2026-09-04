@@ -2,29 +2,29 @@
 
 
 
-@section('title', 'APMDC Corporate Website & Web Platform | Techcrossbreed')
+@section('title', 'Corporate Website & Web Platform | Techcrossbreed')
 
 @section(
     'meta_description',
-    'Explore the APMDC corporate website and web platform designed and developed by Techcrossbreed to strengthen digital presence, communicate services and support online engagement.'
+    'Explore the Corporate website and web platform designed and developed by Techcrossbreed to strengthen digital presence, communicate services and support online engagement.'
 )
 
-@section('canonical', url('/projects/apmdc-corporate-website'))
+@section('canonical', url('/projects/you-corporate-website'))
 
-@section('og_title', 'APMDC Corporate Website & Web Platform | Techcrossbreed')
+@section('og_title', 'Corporate Website & Web Platform | Techcrossbreed')
 
 @section(
     'og_description',
-    'A modern corporate website and web platform developed by Techcrossbreed for APMDC.'
+    'A modern corporate website and web platform developed by Techcrossbreed.'
 )
 
-@section('og_url', url('/projects/apmdc-corporate-website'))
+@section('og_url', url('/projects/you-corporate-website'))
 
-@section('twitter_title', 'APMDC Corporate Website & Web Platform | Techcrossbreed')
+@section('twitter_title', 'Corporate Website & Web Platform | Techcrossbreed')
 
 @section(
     'twitter_description',
-    'Explore how Techcrossbreed designed and developed the APMDC corporate website and web platform.'
+    'Explore how Techcrossbreed designed and developed the corporate website and web platform.'
 )
 
 @section('content')
@@ -70,7 +70,7 @@
                     </li>
 
                     <li class="font-medium text-brand-dark">
-                        APMDC Corporate Website
+                        Corporate Website
                     </li>
 
                 </ol>
@@ -111,13 +111,13 @@
                         id="project-heading"
                         class="text-4xl font-extrabold tracking-tight text-brand-dark sm:text-5xl lg:text-6xl"
                     >
-                        APMDC Corporate Website & Web Platform
+                        A Corporate Website & Web Platform
                     </h1>
 
 
                     <p class="mt-6 max-w-2xl text-base leading-8 text-brand-gray sm:text-lg">
                         A modern corporate website and digital platform designed
-                        to strengthen APMDC's online presence, communicate its
+                        to strengthen online presence, communicate its
                         services and provide a stronger digital experience for
                         its audience.
                     </p>
@@ -215,7 +215,7 @@
                     </p>
 
                     <p class="mt-2 font-bold text-brand-dark">
-                        APMDC
+                        AGET
                     </p>
 
                 </div>
@@ -295,7 +295,7 @@
                         id="overview-heading"
                         class="text-3xl font-extrabold tracking-tight text-brand-dark sm:text-4xl"
                     >
-                        A stronger digital foundation for APMDC.
+                        A stronger digital foundation for you
                     </h2>
 
                 </div>
@@ -304,7 +304,7 @@
                 <div class="space-y-5 text-base leading-8 text-brand-gray sm:text-lg">
 
                     <p>
-                        APMDC required a modern digital presence capable of
+                        you required a modern digital presence capable of
                         clearly communicating its organization, services and
                         value proposition to its online audience.
                     </p>
@@ -375,7 +375,7 @@
                         </h3>
 
                         <p class="mt-2 text-sm leading-7 text-brand-gray">
-                            Present APMDC's organization, services and value
+                            Present you's organization, services and value
                             clearly to different types of website visitors.
                         </p>
 
@@ -707,7 +707,7 @@
 
                 <p class="mt-5 text-base leading-8 text-brand-gray sm:text-lg">
                     The project established a more professional online presence
-                    for APMDC while creating a scalable foundation for future
+                    for you while creating a scalable foundation for future
                     digital content, services and platform capabilities.
                 </p>
 

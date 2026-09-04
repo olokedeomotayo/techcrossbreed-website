@@ -1,17 +1,17 @@
 @extends('layouts.app')
 
-@section('title', 'APMDC Procurement & Vendor Management System | Techcrossbreed')
+@section('title', 'Procurement & Vendor Management System | Techcrossbreed')
 
 @section(
     'meta_description',
-    'Explore the APMDC Procurement and Vendor Management System developed by Techcrossbreed to digitize procurement workflows, vendor management, approvals and purchasing operations.'
+    'Explore the Procurement and Vendor Management System developed by Techcrossbreed to digitize procurement workflows, vendor management, approvals and purchasing operations.'
 )
 
 @section('canonical', url('/projects/apmdc-procurement-system'))
 
 @section(
     'og_title',
-    'APMDC Procurement & Vendor Management System | Techcrossbreed'
+    'Procurement & Vendor Management System | Techcrossbreed'
 )
 
 @section(
@@ -23,12 +23,12 @@
 
 @section(
     'twitter_title',
-    'APMDC Procurement & Vendor Management System | Techcrossbreed'
+    'Procurement & Vendor Management System | Techcrossbreed'
 )
 
 @section(
     'twitter_description',
-    'Explore the custom procurement and vendor management system developed by Techcrossbreed for APMDC.'
+    'Explore the custom procurement and vendor management system developed by Techcrossbreed for YOU'
 )
 
 @section('content')
@@ -119,7 +119,7 @@
                         id="procurement-heading"
                         class="max-w-3xl text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl"
                     >
-                        APMDC Procurement & Vendor Management System
+                        Procurement & Vendor Management System
                     </h1>
 
 
@@ -281,7 +281,7 @@
                     </p>
 
                     <p class="mt-2 font-bold text-brand-dark">
-                        APMDC
+                        A
                     </p>
 
                 </div>
